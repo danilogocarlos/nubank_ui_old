@@ -25,40 +25,41 @@ class BottomMenu extends StatelessWidget {
               duration: Duration(milliseconds: 200),
               opacity: visible ? 1 : 0,
               child: Container(
+                padding: EdgeInsets.only(left: 15),
                 child: ListView(
                   physics: BouncingScrollPhysics(),
                   scrollDirection: Axis.horizontal,
                   children: [
                     ItemMenuBottom(
-                      icon: Icons.person_add,
+                      icon: Icons.person_add_alt_1_outlined,
                       text: "Indicar amigos",
                     ),
                     ItemMenuBottom(
-                      icon: Icons.phone_android,
+                      icon: Icons.phone_android_outlined,
                       text: "Recarga de celular",
                     ),
                     ItemMenuBottom(
-                      icon: Icons.chat,
-                      text: "Cobrar",
+                      icon: Icons.arrow_upward,
+                      text: "Transferir",
                     ),
                     ItemMenuBottom(
-                      icon: Icons.monetization_on,
-                      text: "Empréstimos",
-                    ),
-                    ItemMenuBottom(
-                      icon: Icons.move_to_inbox,
+                      icon: Icons.arrow_downward,
                       text: "Depositar",
                     ),
                     ItemMenuBottom(
-                      icon: Icons.mobile_screen_share,
-                      text: "Transferir",
+                      icon: Icons.messenger_outline,
+                      text: "Cobrar",
+                    ),
+                    ItemMenuBottom(
+                      icon: Icons.monetization_on_outlined,
+                      text: "Empréstimos",
                     ),
                     ItemMenuBottom(
                       icon: Icons.format_align_center,
                       text: "Ajustar limite",
                     ),
                     ItemMenuBottom(
-                      icon: Icons.chrome_reader_mode,
+                      icon: Icons.attach_money_outlined,
                       text: "Pagar",
                     ),
                     ItemMenuBottom(

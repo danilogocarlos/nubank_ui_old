@@ -9,10 +9,10 @@ class ItemMenuBottom extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.symmetric(
-        horizontal: 10,
+        horizontal: 5,
         vertical: 12,
       ),
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(4),
       width: MediaQuery.of(context).size.width * .22,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(5)),
