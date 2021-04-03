@@ -18,5 +18,5 @@ O intuito foi recriar a home page do Nubank com as animações e interações pr
 
 ## :clapper: Demo
 
-![Demostração](https://github.com/danilogocarlos/nubank_ui_old/blob/main/assets/gifs/video.gif)
+![Demostração](https://raw.githubusercontent.com/danilogocarlos/nubank_ui_old/master/assets/gifs/video.gif)
  
